@@ -1,0 +1,47 @@
+button {
+    color: beige;
+    position: relative;
+    /* display: inline-block; */
+    font-size: 20px;
+    margin: auto 0;
+    border-radius: 24px;
+    padding: 20px;
+    /* width: 40%; */
+    
+    
+    
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.start {
+    background-color: #3B7A57; 
+}
+
+.play-pause {
+    background-color: #FF9933;
+}
+
+.stop {
+    background-color: #FF4D4D;
+
+}
+
+.resume-pause {
+    background-color: #FF9933;
+}
+
+.resume-stop {
+    background-color: #FF4D4D;
+}
+
+.button-container {
+    display: flex;
+
+}
+
+.button-container > button {
+    flex-grow: 1;
+}
